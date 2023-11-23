@@ -126,7 +126,7 @@
 }
 
 .package-details-item-2 {
-    width: 23%;
+    width: 25%;
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -156,5 +156,6 @@
     }
     .package-details-item-2 {
         font-size: 12px;
+        width: 23%;
     }
 }

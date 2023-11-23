@@ -43,6 +43,43 @@ The server is a Node.js application.
 The server will start on [http://localhost:5000].
 
 
+## Login Credentials
+
+The application consists both user and admin login.
+
+### User Login
+
+username1: `akshay`
+
+password1: `akshay123`
+
+
+username2: `rahul`
+
+password2: `rahul123`
+
+
+username3: `sama123`
+
+password3: `sama123`
+
+
+username4: `hari126`
+
+password4: `hari126`
+
+### Admin Login
+
+username1: `krishna`
+
+password1: `krishna123`
+
+
+username2: `karthik`
+
+password2: `karthik123`
+
+
 ## Deployment
 
 server deployed in [render.com]: [https://api-product-tracker.onrender.com]
