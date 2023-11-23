@@ -17,7 +17,7 @@ const GetTrackingDetails = () => {
         event.preventDefault()
         if(trackingNumber !== '') {
             setLoading(true)
-            const response = await fetch(`http://localhost:5000/tracking/${trackingNumber}/`, {
+            const response = await fetch(`https://api-product-tracker.onrender.com/tracking/${trackingNumber}/`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

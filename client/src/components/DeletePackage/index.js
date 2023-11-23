@@ -18,7 +18,7 @@ const DeletePackage = () => {
             setSuccessMsg('')
             return
         }
-        const response = await fetch(`http://localhost:5000/tracking/delete/${trackingNumber}/`, {
+        const response = await fetch(`https://api-product-tracker.onrender.com/tracking/delete/${trackingNumber}/`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
