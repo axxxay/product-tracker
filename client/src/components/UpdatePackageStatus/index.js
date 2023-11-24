@@ -77,8 +77,9 @@ const UpdatePackageStatus = () => {
                 },
                 body: JSON.stringify(packageData)
             }
-
-            const response = await fetch('https://api-product-tracker.onrender.com/tracking/updatestatus/', options)
+            const dev_url = 'http://localhost:5000/'
+            const prod_url = 'https://api-product-tracker.onrender.com/'
+            const response = await fetch(`${prod_url}tracking/updatestatus/`, options)
             const data = await response.json()
             if(response.ok === true) {
                 setPackageId('')

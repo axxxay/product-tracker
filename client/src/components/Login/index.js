@@ -24,7 +24,9 @@ const Login = () => {
             setErrorMessage('*Username and password are required.')
         } else {
             setErrorMessage('')
-            const response = await fetch('https://api-product-tracker.onrender.com/login/', {
+            const dev_url = 'http://localhost:5000/'
+            const prod_url = 'https://api-product-tracker.onrender.com/'
+            const response = await fetch(`${prod_url}login/`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

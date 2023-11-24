@@ -78,8 +78,9 @@ const AddPackage = () => {
                 },
                 body: JSON.stringify(packageData)
             }
-
-            const response = await fetch('https://api-product-tracker.onrender.com/newpackage/', options)
+            const dev_url = 'http://localhost:5000/'
+            const prod_url = 'https://api-product-tracker.onrender.com/'
+            const response = await fetch(`${prod_url}newpackage/`, options)
             const data = await response.json()
             if(response.ok === true) {
                 setPackageName('')

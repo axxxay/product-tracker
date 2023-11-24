@@ -140,6 +140,19 @@
     align-items: center;
 }
 
+.package-details-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #001B79;
+    align-self: center;
+}
+
+.span {
+    color: #312f2f;
+}
+
 @media screen and (max-width: 768px) {
     .track-container {
         padding: 40px 15px;
